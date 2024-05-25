@@ -98,6 +98,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "socketServer": "socket-server.js",
             "inlineStyleLanguage": "scss",
             "assets": [
               {
@@ -112,7 +113,7 @@
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
-            "scripts": []
+            "scripts": ["socket-server.js"] 
           },
           "configurations": {
             "ci": {
