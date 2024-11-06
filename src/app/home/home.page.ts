@@ -26,15 +26,12 @@ export class HomePage implements OnInit {
     this.authService.getCollection('users').subscribe(data => {
       this.users = data;
     });
-
-    this.localVideo = document.getElementById('localVideo') as HTMLVideoElement;
-    this.remoteVideo = document.getElementById('remoteVideo') as HTMLVideoElement;
   }
 
   addItem() {
     const newItem = { full_name: 'New Item', mobile_no: 'Item mobile_no' ,password:"password"};
-    this.authService.createDoc('users', newItem).then(() => {
-      console.log('Document successfully written!');
+    this.authService.createDoc('users', newItem).then((data) => {
+      console.log('Document successfully written!', data);
     }).catch(error => {
       console.error('Error writing document: ', error);
     });

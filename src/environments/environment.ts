@@ -4,26 +4,7 @@
 
 export const environment = {
   production: false,
-  // firebaseConfig1: {
-  //   apiKey: "YOUR_API_KEY",
-  //   authDomain: "YOUR_AUTH_DOMAIN",
-  //   projectId: "YOUR_PROJECT_ID",
-  //   storageBucket: "YOUR_STORAGE_BUCKET",
-  //   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  //   appId: "YOUR_APP_ID"
-  // }
-  firebaseConfig1 : {
-    apiKey: "AIzaSyCgZEd3O_bRCEY0-FkN-Pfrv81WFTcKZtE",
-    authDomain: "myapp-ba8be.firebaseapp.com",
-    databaseURL: "https://myapp-ba8be-default-rtdb.firebaseio.com",
-    projectId: "myapp-ba8be",
-    storageBucket: "myapp-ba8be.appspot.com",
-    messagingSenderId: "124875055578",
-    appId: "1:124875055578:web:bb142412d38a327baa20e3",
-    measurementId: "G-74HMN0QXS1"
-  },
-
-  firebaseConfig : {
+  firebaseConfig: {
     apiKey: "AIzaSyCgZEd3O_bRCEY0-FkN-Pfrv81WFTcKZtE",
     authDomain: "myapp-ba8be.firebaseapp.com",
     databaseURL: "https://myapp-ba8be-default-rtdb.firebaseio.com",
